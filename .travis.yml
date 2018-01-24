@@ -1,7 +1,4 @@
-deploy:
-  provider: releases
-  api_key: "GITHUB OAUTH TOKEN"
-  file: "FILE TO UPLOAD"
-  skip_cleanup: true
-  on:
-    tags: true
+language: php
+php:
+ - 7.0
+ - 7.1
